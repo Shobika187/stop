@@ -1,0 +1,22 @@
+{
+  "name": "stopwatch",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://shobika187.github.io/stop/",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "^10.22.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.8.3",
+    "gh-pages": "^6.1.1",
+    "vite": "^5.3.4"
+  }
+}
